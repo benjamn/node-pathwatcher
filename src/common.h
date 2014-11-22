@@ -51,5 +51,6 @@ void CommonInit();
 NAN_METHOD(SetCallback);
 NAN_METHOD(Watch);
 NAN_METHOD(Unwatch);
+NAN_METHOD(Count);
 
 #endif  // SRC_COMMON_H_

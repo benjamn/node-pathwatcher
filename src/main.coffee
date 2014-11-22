@@ -116,3 +116,4 @@ exports.getWatchedPaths = ->
 
 exports.File = require './file'
 exports.Directory = require './directory'
+exports.count = binding.count

@@ -10,6 +10,7 @@ void Init(Handle<Object> exports) {
   NODE_SET_METHOD(exports, "setCallback", SetCallback);
   NODE_SET_METHOD(exports, "watch", Watch);
   NODE_SET_METHOD(exports, "unwatch", Unwatch);
+  NODE_SET_METHOD(exports, "count", Count);
 
   HandleMap::Initialize(exports);
 }

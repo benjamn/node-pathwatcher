@@ -139,3 +139,8 @@ NAN_METHOD(Unwatch) {
 
   NanReturnUndefined();
 }
+
+NAN_METHOD(Count) {
+  NanScope();
+  NanReturnValue(NanNew<Integer>(g_watch_count));
+}
